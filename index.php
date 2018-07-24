@@ -10,9 +10,9 @@
     <form action="calcular.php" method="POST">
         <h3>Somar</h3>
         <label for="n1">Número 1</label><br><br>
-        <input type="number" name="n1" id="n1"><br><br>
+        <input type="number" name="n1" id="n1" min="0" value="0" required><br><br>
         <label for="n2">Número 2</label><br><br>
-        <input type="number" name="n2" id="n2"><br><br>
+        <input type="number" name="n2" id="n2" min="0" value="0" required><br><br>
         <select name="op">
             <option value="somar">Somar</option>
             <option value="subtrair">Subtrair</option>
